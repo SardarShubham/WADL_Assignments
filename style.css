@@ -1,0 +1,38 @@
+.container{
+    background-color: aquamarine;
+    border: 2px solid maroon;
+    border-radius: 25px;
+    margin: 5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    color:darkblue;
+}
+
+ul{
+    text-align: left;
+}
+li{
+    list-style:disc;
+    font-size: large;
+}
+
+input{
+    height: 25px;
+    border-radius: 8px;
+    background-color: azure;
+    width: 200px;
+    margin: 1rem;
+}
+
+button{
+    background-color:brown;
+    height: 30px;
+    border-radius: 8px;
+    display: block;
+    width: 200px;
+    margin: auto;
+}
