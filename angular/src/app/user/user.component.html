@@ -1,0 +1,21 @@
+<h2>User Input Section</h2>
+<form>
+    <!-- <label>Username: </label> -->
+    <input type="text" [(ngModel)]="username" placeholder="username"/>
+    <!-- <label>Password: </label>     -->
+    <input type="text" [(ngModel)]="password" placeholder="password"/>
+    <!-- <button (click)="users.push({name:username, pass:password})" >
+        Add User
+    </button> -->
+
+    <p>{{username}}</p>
+    <p>{{password}}</p>
+    <button (click)="usernames.pop()" >Remove User</button>
+</form>
+
+
+<hr/>
+<h2>Users List</h2>
+<ol>
+    <li *ngFor = 'let user of users'>{{user.pass}}</li>
+</ol>
