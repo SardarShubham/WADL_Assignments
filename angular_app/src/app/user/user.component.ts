@@ -11,18 +11,21 @@ export class UserComponent implements OnInit {
 
   username = '';
   password = '';
-  // password = '';
-  // user: User = {
-  //   username : 'shubham',
-  //   password : 'pass'
-  // }
 
-  // users = [
-  //   {username: "username1", password:"password1"}
-  // ]
-  users: Array<{name:string, pass:string}>=[];
-  usernames=[];
-  passwords=[];
+  userList = [{
+    name:"shu",
+    pass:"123"
+  },
+   {
+     name:"sardar",
+    pass:"345"
+  }];
+
+  handleAdd = () => {
+    console.log("clicked");
+    let temp = {name:this.username, pass:this.password}
+    this.userList.push(temp);
+  }
 
   constructor() { }
 

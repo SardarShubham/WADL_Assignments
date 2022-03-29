@@ -1,0 +1,4 @@
+/angular_app/node_modules
+# /angular_app/angular-webpack
+# /angular_app/babel-webpack
+/angular_app/.angular
