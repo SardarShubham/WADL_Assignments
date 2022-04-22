@@ -1,0 +1,45 @@
+.todo__container ol{
+    font-size: 24px;
+    color: black;
+    margin: 2.5rem;
+}
+
+.todo__container h1{
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.todo__container{
+    text-align: center;
+    border: 2px solid maroon;
+    border-radius: 25px;
+    background-color: aliceblue;
+    margin: 6rem;
+}
+
+.todo__container input{
+    height: 35px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.btn__grp{
+    margin:2rem;
+}
+
+.btn__grp button{
+    height: 30px;
+    color:darkblue;
+    height: 45px;
+    width: 80px;
+    border-radius: 10px;
+    background: transparent;
+    border-color:darkblue;
+    white-space: nowrap;
+    margin: 1rem;
+}
+
+.btn__grp:nth-child(1){
+    color: red;
+    border-color: red;
+}
