@@ -1,0 +1,175 @@
+body{
+    background-color:azure;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.nav-item:hover{
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: #C4C4C4;
+    color: blueviolet;
+}
+
+.bg{
+    display: inline;
+}
+
+
+
+.search{
+    margin-bottom: 50px;
+}
+
+
+body{
+    
+}
+
+.sliding__card{
+    height:350px;
+    border:2px solid black;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    object-fit: contain;
+    margin: 5rem;
+}
+ 
+.middle{
+    background-image: url('./Images/bg_new.jpg');
+    color:burlywood;
+    background-repeat: no-repeat;
+    object-fit:contain;
+}
+
+.popular__cards{
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    align-self: center;
+    height: 100px;
+    width: 120px;
+}
+.card-content{
+    align-content: center;
+    height: 346px;
+    width: 500px;
+}
+.card{
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+}
+
+.card:hover{
+    border: 2px solid red;
+    box-shadow: 10px 5px 5px brown;
+}
+.content{
+    padding: 2rem;
+
+}
+
+.category__item{
+    background-color:lightgray;
+    border-radius: 5px;
+    margin: 3px 0px;
+    height: 50px;
+}
+.trends{
+}
+
+.footer{
+    text-align: left;
+    background-color:black;
+    color:whitesmoke;
+    margin-top: 50px;
+}
+
+.login__container{
+    text-align: center;
+}
+
+.login__card{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: auto;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-row{
+    margin-top: 20px;
+}
+
+.submit_btn{
+    text-align: center;
+    border-radius: 20px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    background-color: orangered;
+    color: white;
+    margin: 2rem;
+}
+
+input{
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: inline;
+    outline: none;
+    padding-left: 10px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    padding-left: 0px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    z-index: 2;
+    border-radius: 6px;
+    width: 250px;
+    font-size: 25px;
+}
+
+.cat_heading{
+    background-color: black;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.cat_heading:hover{
+    color: white;
+}
+
+.cat_row:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+.cat_row{
+    display: block;
+    text-align: left;
+    height: 60px;
+    font-size: 25px;
+    background-color: gray;
+    padding-left: 20px;
+    border: 2px solid black;
+    margin-top:10px;
+    border-radius: 4px;
+}
+
+
