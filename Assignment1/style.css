@@ -1,95 +1,115 @@
-body{
-    background-color:azure;
+
+.images__container{
+    height: 380px;
+    width: 90%;
     text-align: center;
-    color:whitesmoke;
+    margin:auto;
+    margin-bottom: 100px;
+    border-radius: 25px;
+    overflow-y: hidden;
 }
 
-.nav-item:hover{
-    border: 1px solid #FFFFFF;
-    border-radius: 20px;
-    background-color: #C4C4C4;
-    color: blueviolet;
-}
-
-.bg{
-    display: inline;
-}
-
-
-
-.search{
-    margin-bottom: 50px;
-}
-
-
-body{
-    
-}
-
-.sliding__card{
-    height:350px;
-    border:2px solid black;
-    border-radius: 20px;
-    margin-bottom: 50px;
-    object-fit: contain;
-    margin: 5rem;
-}
- 
-.middle{
-    background-image: url('./Images/bg_new.jpg');
-    color:burlywood;
-    background-repeat: no-repeat;
-    object-fit:contain;
-}
-
-.popular__cards{
-    margin-bottom: 50px;
-}
-
-.card-img-top{
-    align-self: center;
-    height: 100px;
-    width: 120px;
-}
-.card-content{
-    align-content: center;
-    height: 346px;
-    width: 500px;
-}
-.card{
-    height: 200px;
-    background-color: white;
-    border-radius: 10px;
-    color:black;
-}
-
-.card:hover{
-    border: 2px solid red;
-    box-shadow: 10px 5px 5px brown;
-}
 .content{
-    padding: 2rem;
-
+    background-color:azure;
 }
 
-.category__item{
-    background-color:lightgray;
-    border-radius: 5px;
-    margin: 3px 0px;
+.offcanvas{
+    background-color:rgba(32, 30, 30, 0.857);
+    color: white;
+}
+
+.c_item{
+    background-color: gray;
+    border: 2px solid black;
+    margin-top:10px;
     height: 50px;
-}
-.trends{
-}
-
-.footer{
-    text-align: left;
-    background-color:black;
-    color:whitesmoke;
-    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+    border-radius: 8px;
 }
 
+.c_item a{
+    color: white;
+}
+
+.c_item:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+.first__row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 30px 5%;
+    padding-top: 30px;
+}
+.carousel__img{
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.carousel-item{
+    border-radius: 25px;
+}
+
+.featured__cards{
+    padding: 5rem;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.__card{
+    margin-bottom: 10px;
+}
+.__card:hover{
+    border: 5px solid black;
+}
+.card-img-top{
+    height: 200px;
+}
+
+.statistic__map__row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5rem;
+}
+
+.statistic__block{
+    display: inline-block;
+    flex-grow: 1;
+    /* border: 1px solid burlywood; */
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.map__column{
+    display: inline-block;
+    flex-grow: 1;
+    /* border: 1px solid red; */
+}
+
+iframe{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* login page  */
 .login__container{
     text-align: center;
+    
 }
 
 .login__card{
@@ -98,6 +118,9 @@ body{
     margin-right: auto;
     margin-top: 100px;
     height: auto;
+    border: 2px black solid;
+    border-radius: 25px;
+    margin-bottom: 50px;
 }
 
 label{
@@ -116,7 +139,7 @@ label{
     height: 50px;
     width: 120px;
     font-size: 20px;
-    background-color: orangered;
+    background-color: black;
     color: white;
     margin: 2rem;
 }
@@ -131,45 +154,9 @@ input{
     padding-left: 10px;
 }
 
-.sidebar{
-    position: fixed;
-    left: 0;
-    padding-left: 0px;
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    z-index: 2;
-    border-radius: 6px;
-    width: 250px;
-    font-size: 25px;
+.feedback{
+    color: red;
+    font-size: 15px;
+    text-align: right;
 }
-
-.cat_heading{
-    background-color: black;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-}
-
-.cat_heading:hover{
-    color: white;
-}
-
-.cat_row:hover{
-    background-color: blanchedalmond;
-    color: black;
-}
-
-.cat_row{
-    display: block;
-    text-align: left;
-    height: 60px;
-    font-size: 25px;
-    background-color: gray;
-    padding-left: 20px;
-    border: 2px solid black;
-    margin-top:10px;
-    border-radius: 4px;
-}
-
 
