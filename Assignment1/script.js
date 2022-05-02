@@ -69,6 +69,7 @@ const handleSubmit = () => {
 
     if (fname == "" || lname=="" || email=="" || contact=="" || password==""){
         alert("Enter All the fields to proceed!");
+        
     }
     // all validaations are correct
     else{
